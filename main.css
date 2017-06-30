@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+}
+
+
+.navbar-brand {
+  display: inline-block;
+  font-size: 50px;
+  font-family: 'Roboto', sans-serif;
+font-family: 'Molle', cursive;
+font-family: 'Bungee Inline', cursive;
+color: #fff;
+}
+
+.container-fluid {
+  background-color: #000;
+}
+
+.navbar-default .navbar-collapse, .navbar-default {
+  border: none;
+}
+
+section {
+  min-height: 100vh;
+}
+
+section#about {
+margin-top: 50px;
+background-color: #eee;
+font-family: 'Bungee Inline', cursive;
+background-image: url("./bubbles.jpg");
+background-size: cover;
+background-position: center top;
+}
+
+section#portfolio {
+  background-color: rgb(81, 80, 79);
+  font-family: 'Bungee Inline', cursive;
+  background-image: url("./bubbles.jpg");
+  background-size: cover;
+
+}
+
+section#skills {
+  font-family: 'Bungee Inline', cursive;
+  background-image: url("./bubbles.jpg");
+  text-align: 0 0 0 0 #000;
+  background-size: cover;
+}
+
+section#skills h4 {
+  margin-left: 20px;
+  margin-bottom: 0;
+  padding-bottom: none;
+}
+
+section#skills p {
+  margin-left: 35px;
+  margin-top: 0;
+  margin-right: 450px;
+  margin-bottom: 0;
+  padding: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+
+}
+
+section#skills .indented {
+  margin-left: 50px;
+}
+
+section#skills .paragraph {
+  margin-bottom: 15px;
+}
+
+section#contact {
+  background-image: url("./bubbles.jpg");
+  font-family: 'Bungee Inline', cursive;
+  background-size: cover;
+}
+.overlay {
+    display: none;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, .6);
+}
+.card img.enlarge {
+    position: fixed;
+    padding-top: 30px;
+    width: auto;
+    max-height: 90vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#gallery {
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+#gallery figure {
+  max-width: 200px;
+  display: inline-block;
+}
+
+#gallery figure img {
+  width: 100%;
+}
+
+#gallery figcaption {
+  text-align: center;
+}
+
+#cards {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content:center;
+  max-width: 900px;
+  margin: auto;
+}
+
+#cards .card {
+  max-width: 200px;
+  margin: 20px;
+
+}
+
+.card img {
+  width: 100%;
+
+}
+
+
+}
+section.purple-title h2 {
+  color: rgb(128, 0, 128);
+}
+
+
+form input {
+  display:block;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border-width: 2px;
+}
+
+form input:focus {
+    outline: none;
+    box-shadow: inset 0 1px 4px 0 #000, 0 2px 4px -2px red
+}
+form input[type="radio"] {
+  display: inline-block;
+}
+form input[type="submit"] {
+  padding: 5px 15px;
+  background-color: red;
+  color: #fff;
+  text-transform: capitalize;
+  font-family: serif;
+  cursor: pointer;
+}
+
+@media all (min-width: 1024px) {
+  .card {
+    display: inline-block;
+    max-width: 200px;
+  }
+}
